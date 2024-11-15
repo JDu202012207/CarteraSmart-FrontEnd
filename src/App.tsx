@@ -12,7 +12,6 @@ function App() {
 
   return (
     <>
-      <h1 className='p-4 bg-red-400'>Vite + React + tailwindcss</h1>
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
