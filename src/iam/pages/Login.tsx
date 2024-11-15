@@ -1,4 +1,9 @@
+import {useNavigate} from "react-router-dom";
+
 export const Login = () => {
+
+    const navigate = useNavigate();
+
   return (
       <div className="flex items-center justify-center min-h-screen bg-gray-200">
 
@@ -46,6 +51,7 @@ export const Login = () => {
                 <button
                     type="button"
                     className="text-white bg-gray-600 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-6 py-2.5 text-center"
+                    onClick={() => navigate('/register')}
                 >
                   Registrar
                 </button>
