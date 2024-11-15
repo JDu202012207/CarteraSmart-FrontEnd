@@ -10,7 +10,7 @@ export const Home = () => {
               alt="Perfil"
               className="w-36 h-36 rounded-full mb-4 mt-16"
           />
-          <h2 className="text-center text-lg font-semibold mb-6 text-gray-800">Bienvenido Alfonso</h2>
+          <h2 className="text-center text-lg font-semibold mb-6 text-gray-800">Bienvenido USER</h2>
 
           <nav className="flex flex-col space-y-4">
             <button className="flex items-center space-x-2 text-gray-700 hover:text-gray-900">
@@ -28,7 +28,7 @@ export const Home = () => {
           </button>
         </div>
 
-        {/* Área principal */}
+        {/* Contenido principal */}
         <div className="flex-1 p-8">
           <div className="flex flex-col items-center justify-center bg-gray-300 p-6 rounded-lg">
             <h1 className="text-2xl font-semibold ">Entidades Financieras</h1>
